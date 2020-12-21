@@ -1,0 +1,23 @@
+{
+  "name": "lib-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm test -- --watch",
+    "test": "jest --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "joi": "^17.3.0",
+    "validate.js": "^0.13.1"
+  }
+}
